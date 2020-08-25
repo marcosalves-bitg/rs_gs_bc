@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add express
+
+PATH: 
+  =/mnt/oldhome/desenvolvimento/flutter/bin:=/mnt/oldhome/desenvolvimento/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.21.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ECONNREFUSED 104.16.20.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
